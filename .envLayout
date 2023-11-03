@@ -1,0 +1,3 @@
+PORT=3000
+DB_CNN=mongodb+srv://prueba:Fe8X5V9BePPDJIlG@cluster0.klrb50m.mongodb.net/prueba_tecnica
+JWT_SECRET=j4h3h8d6d0snfd7snbufdss0d8ugs0duds
