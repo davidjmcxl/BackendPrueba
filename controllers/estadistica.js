@@ -34,7 +34,9 @@ const getVentas = async (req, res) => {
         return { mes: nombreMes, total ,cantidadtotal};
       });
   
-      res.json({VentasPorMes});
+      res.json(
+        {
+          ventas:VentasPorMes});
     } catch (error) {
       console.error(error);
       res.status(500).json({ error: 'Error al obtener las ventas por mes.' });
